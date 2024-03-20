@@ -27,6 +27,7 @@ app.use(session({
         // path = where the cookie is valid
         path: "/",
         // domain = what domain the cookie is valid on
+         domain: process.env.COOKIE_DOMAIN,
         // secure = only send cookie over https
         secure: false,
         // sameSite = only send cookie if the request is coming from the same origin
