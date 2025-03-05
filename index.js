@@ -15,7 +15,7 @@ let app = express();
 app.use(cors({ origin: '*', credentials: true }));
 app.use(express.json())
 app.use(session({
-    secret: 'sitonmeloba69',
+    secret: 'sit',
     resave: false,
     saveUninitialized: false,
     store: new MongoDBSession({
